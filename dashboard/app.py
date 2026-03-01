@@ -23,7 +23,6 @@ st.set_page_config(
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 BASE      = Path(__file__).parent.parent
-RAW       = BASE / "data" / "raw"
 PROCESSED = BASE / "data" / "processed"
 TABLES    = BASE / "outputs" / "tables"
 
@@ -50,7 +49,6 @@ TEMPLATE = "plotly_white"
 # ── Data loading (cached) ──────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df           = pd.read_csv(RAW / "athlete_events.csv")
     noc_lookup   = pd.read_csv(PROCESSED / "noc_regions_clean.csv")
     lookup       = noc_lookup[["NOC", "region", "continent"]].drop_duplicates("NOC")
     forecast     = pd.read_csv(PROCESSED / "forecast_la2028_enriched.csv")
@@ -63,33 +61,33 @@ def load_data():
     sport_growth = pd.read_csv(TABLES / "athlete_sportGrowth_1984_2016.csv")
     noc_summary  = pd.read_csv(TABLES / "athlete_NOC_summary.csv")
     gdp_medals   = pd.read_csv(TABLES / "noc_gdp_medals_2016.csv")
-
-    summer = df[df["Season"] == "Summer"].copy()
-    summer = summer.merge(lookup, on="NOC", how="left")
-    summer["continent"] = summer["continent"].fillna("Other")
-    summer["region"]    = summer["region"].fillna(summer["NOC"])
+    # Pre-computed from athlete_events.csv (raw file excluded from repo)
+    gender_df       = pd.read_csv(PROCESSED / "gender_by_year.csv")
+    medals_noc_year = pd.read_csv(PROCESSED / "medals_by_noc_year.csv")
 
     return {
-        "raw":          summer,
-        "lookup":       lookup,
-        "forecast":     forecast,
-        "alltime":      alltime,
-        "modern_tbl":   modern_tbl,
-        "cont_summary": cont_summary,
-        "cont_fc":      cont_fc,
-        "venues":       venues,
-        "home_adv":     home_adv,
-        "sport_growth": sport_growth,
-        "noc_summary":  noc_summary,
-        "gdp_medals":   gdp_medals,
+        "lookup":           lookup,
+        "forecast":         forecast,
+        "alltime":          alltime,
+        "modern_tbl":       modern_tbl,
+        "cont_summary":     cont_summary,
+        "cont_fc":          cont_fc,
+        "venues":           venues,
+        "home_adv":         home_adv,
+        "sport_growth":     sport_growth,
+        "noc_summary":      noc_summary,
+        "gdp_medals":       gdp_medals,
+        "gender_df":        gender_df,
+        "medals_noc_year":  medals_noc_year,
     }
 
 
-data = load_data()
-summer   = data["raw"]
-forecast = data["forecast"]
-alltime  = data["alltime"]
-lookup   = data["lookup"]
+data            = load_data()
+forecast        = data["forecast"]
+alltime         = data["alltime"]
+lookup          = data["lookup"]
+gender_df       = data["gender_df"]
+medals_noc_year = data["medals_noc_year"]
 
 # ── Sidebar ────────────────────────────────────────────────────────────────
 st.sidebar.image(
@@ -185,16 +183,11 @@ elif page == "🏃 Athlete Edge":
     with tab1:
         st.subheader("Gender Participation — Summer Olympics (1948–2016)")
 
-        gender_df = (
-            summer[summer["Year"] >= 1948]
-            .groupby(["Year", "Sex"])
-            .agg(Athletes=("ID", "nunique"))
-            .reset_index()
-        )
-        gender_df["Sex"] = gender_df["Sex"].map({"M": "Male", "F": "Female"})
+        gender_df_plot = gender_df.copy()
+        gender_df_plot["Sex"] = gender_df_plot["Sex"].map({"M": "Male", "F": "Female"})
 
         fig = px.area(
-            gender_df, x="Year", y="Athletes", color="Sex",
+            gender_df_plot, x="Year", y="Athletes", color="Sex",
             color_discrete_map={"Male": C_BLUE, "Female": C_RED},
             template=TEMPLATE,
             labels={"Athletes": "Unique Athletes", "Year": "Olympic Year"},
@@ -203,7 +196,7 @@ elif page == "🏃 Athlete Edge":
         st.plotly_chart(fig, use_container_width=True)
 
         # Pct female over time
-        pivot = gender_df.pivot(index="Year", columns="Sex", values="Athletes").fillna(0)
+        pivot = gender_df_plot.pivot(index="Year", columns="Sex", values="Athletes").fillna(0)
         pivot["Total"] = pivot.sum(axis=1)
         if "Female" in pivot.columns:
             pivot["Pct_Female"] = (pivot["Female"] / pivot["Total"] * 100).round(1)
@@ -464,13 +457,7 @@ elif page == "🌍 NOC Intelligence":
         else:
             sel_nocs = lookup[lookup["region"].isin(sel_countries)]["NOC"].tolist()
 
-            medals_ts = (
-                summer[summer["NOC"].isin(sel_nocs)]
-                .dropna(subset=["Medal"])
-                .groupby(["Year", "region"])
-                .size()
-                .reset_index(name="Medals")
-            )
+            medals_ts = medals_noc_year[medals_noc_year["NOC"].isin(sel_nocs)].copy()
 
             fig = px.line(
                 medals_ts, x="Year", y="Medals", color="region",
@@ -482,12 +469,10 @@ elif page == "🌍 NOC Intelligence":
 
             # Summary stats
             summary = (
-                summer[summer["NOC"].isin(sel_nocs)]
-                .dropna(subset=["Medal"])
+                medals_ts
                 .groupby("region")
                 .agg(
-                    Total_Medals=("Medal", "count"),
-                    Gold=("Medal", lambda x: (x == "Gold").sum()),
+                    Total_Medals=("Medals", "sum"),
                     Games_Appeared=("Year", "nunique"),
                 )
                 .reset_index()
