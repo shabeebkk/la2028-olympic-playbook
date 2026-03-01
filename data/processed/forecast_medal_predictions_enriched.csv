@@ -1,0 +1,208 @@
+NOC,region,continent,medals_2016,pred_ensemble,pred_low,pred_high,is_host,Rank_2028
+USA,USA,Americas,264,277.1,273.6,280.6,1,1
+GER,Germany,Europe,159,146.7,143.2,150.3,0,2
+GBR,UK,Europe,145,121.4,117.9,125.0,0,3
+FRA,France,Europe,96,102.0,98.4,105.5,0,4
+CHN,China,Asia,113,100.6,97.1,104.1,0,5
+AUS,Australia,Oceania,82,96.8,93.3,100.4,0,6
+RUS,Russia,Europe,115,94.7,91.2,98.2,0,7
+BRA,Brazil,Americas,50,93.0,89.5,96.5,0,8
+JPN,Japan,Asia,64,77.2,73.7,80.8,0,9
+CAN,Canada,Americas,69,69.0,65.4,72.5,0,10
+ITA,Italy,Europe,72,68.0,64.5,71.5,0,11
+ESP,Spain,Europe,45,55.6,52.1,59.2,0,12
+NED,Netherlands,Europe,47,40.4,36.9,44.0,0,13
+SRB,Serbia,Europe,54,38.9,35.4,42.4,0,14
+ARG,Argentina,Americas,22,32.9,29.4,36.5,0,15
+KOR,South Korea,Asia,26,31.6,28.1,35.1,0,16
+NZL,New Zealand,Oceania,36,28.7,25.1,32.2,0,17
+DEN,Denmark,Europe,41,28.2,24.6,31.7,0,18
+SWE,Sweden,Europe,28,27.7,24.1,31.2,0,19
+HUN,Hungary,Europe,22,21.6,18.1,25.2,0,20
+RSA,South Africa,Africa,23,21.3,17.8,24.9,0,21
+POL,Poland,Europe,16,21.1,17.6,24.7,0,22
+CRO,Croatia,Europe,24,21.1,17.5,24.6,0,23
+UKR,Ukraine,Europe,15,19.7,16.2,23.2,0,24
+JAM,Jamaica,Americas,30,18.7,15.2,22.3,0,25
+BLR,Belarus,Europe,12,18.4,14.9,22.0,0,26
+BEL,Belgium,Europe,21,17.8,14.3,21.4,0,27
+ROU,Romania,Europe,16,17.2,13.6,20.7,0,28
+CZE,Czech Republic,Europe,15,16.7,13.2,20.3,0,29
+CUB,Cuba,Americas,11,16.6,13.1,20.1,0,30
+KAZ,Kazakhstan,Asia,18,16.3,12.8,19.9,0,31
+NGR,Nigeria,Africa,18,14.7,11.2,18.2,0,32
+KEN,Kenya,Africa,13,13.8,10.3,17.3,0,33
+NOR,Norway,Europe,19,12.7,9.2,16.2,0,34
+AZE,Azerbaijan,Europe,18,10.1,6.6,13.6,0,35
+COL,Colombia,Americas,8,9.4,5.8,12.9,0,36
+ETH,Ethiopia,Africa,8,8.9,5.4,12.4,0,37
+SUI,Switzerland,Europe,11,8.6,5.0,12.1,0,38
+MEX,Mexico,Americas,5,8.4,4.8,11.9,0,39
+TUR,Turkey,Europe,8,8.2,4.7,11.7,0,40
+SVK,Slovakia,Europe,8,8.2,4.7,11.7,0,41
+IRI,Iran,Asia,8,8.1,4.6,11.7,0,42
+IND,India,Asia,2,7.8,4.2,11.3,0,43
+FIJ,Fiji,Oceania,13,7.0,3.4,10.5,0,44
+UZB,Uzbekistan,Asia,13,7.0,3.4,10.5,0,45
+EGY,Egypt,Africa,3,6.5,3.0,10.1,0,46
+LTU,Lithuania,Europe,7,6.3,2.7,9.8,0,47
+ARM,Armenia,Europe,4,6.2,2.6,9.7,0,48
+BAH,Bahamas,Americas,6,6.1,2.5,9.6,0,49
+PRK,North Korea,Asia,7,5.9,2.3,9.4,0,50
+GRE,Greece,Europe,7,5.8,2.2,9.3,0,51
+SLO,Slovenia,Other,4,5.6,2.1,9.2,0,52
+GEO,Georgia,Europe,7,5.6,2.1,9.1,0,53
+BUL,Bulgaria,Europe,7,5.4,1.8,8.9,0,54
+IRL,Ireland,Europe,3,5.3,1.7,8.8,0,55
+THA,Thailand,Asia,6,5.2,1.6,8.7,0,56
+MAS,Malaysia,Other,8,5.0,1.5,8.5,0,57
+TPE,Taiwan,Asia,5,4.6,1.0,8.1,0,58
+INA,Indonesia,Asia,4,4.6,1.1,8.2,0,59
+MNE,Montenegro,Europe,0,4.1,0.6,7.6,0,60
+BRN,Bahrain,Asia,2,4.0,0.5,7.5,0,61
+MGL,Mongolia,Asia,2,3.9,0.4,7.5,0,62
+EST,Estonia,Europe,4,3.5,0.0,7.0,0,63
+FIN,Finland,Europe,1,3.4,0.0,6.9,0,64
+AUT,Austria,Europe,2,3.1,0.0,6.7,0,65
+VEN,Venezuela,Americas,3,3.0,0.0,6.5,0,66
+TUN,Tunisia,Africa,3,2.8,0.0,6.3,0,67
+TTO,Trinidad,Americas,1,2.6,0.0,6.1,0,68
+ALG,Algeria,Africa,2,2.5,0.0,6.1,0,69
+POR,Portugal,Europe,1,2.2,0.0,5.7,0,70
+ISR,Israel,Europe,2,2.1,0.0,5.6,0,71
+QAT,Qatar,Asia,1,2.0,0.0,5.6,0,72
+MAR,Morocco,Africa,1,1.9,0.0,5.5,0,73
+SGP,,,1,1.9,0.0,5.5,0,74
+PUR,Puerto Rico,Americas,1,1.9,0.0,5.5,0,75
+LAT,Latvia,Europe,0,1.7,0.0,5.3,0,76
+HKG,China,Asia,0,1.7,0.0,5.2,0,77
+ECU,Ecuador,Americas,0,1.5,0.0,5.1,0,78
+VIE,Vietnam,Asia,2,1.4,0.0,4.9,0,79
+CHI,Chile,Americas,0,1.4,0.0,4.9,0,80
+DOM,Dominican Republic,Americas,1,1.4,0.0,5.0,0,81
+MDA,Moldova,Europe,0,1.3,0.0,4.8,0,82
+UGA,Uganda,Africa,0,1.3,0.0,4.8,0,83
+ZIM,Zimbabwe,Africa,0,1.2,0.0,4.7,0,84
+PER,Peru,Americas,0,1.1,0.0,4.7,0,85
+CMR,Cameroon,Africa,0,0.9,0.0,4.4,0,86
+GUA,Guatemala,Americas,0,0.9,0.0,4.4,0,87
+KGZ,Kyrgyzstan,Asia,0,0.8,0.0,4.3,0,88
+HON,Honduras,Americas,0,0.6,0.0,4.2,0,89
+TJK,Tajikistan,Asia,1,0.6,0.0,4.1,0,90
+IOA,Individual Olympic Athletes,Other,2,0.6,0.0,4.2,0,91
+ANG,Angola,Africa,0,0.6,0.0,4.2,0,92
+CIV,Ivory Coast,Africa,2,0.6,0.0,4.1,0,93
+SEN,Senegal,Africa,0,0.6,0.0,4.2,0,94
+KOS,Kosovo,Europe,1,0.4,0.0,3.9,0,95
+IRQ,Iraq,Asia,0,0.4,0.0,4.0,0,96
+CYP,Cyprus,Europe,0,0.3,0.0,3.8,0,97
+KSA,Saudi Arabia,Asia,0,0.3,0.0,3.9,0,98
+GRN,Grenada,Americas,1,0.3,0.0,3.8,0,99
+UAE,United Arab Emirates,Asia,1,0.3,0.0,3.8,0,100
+PHI,Philippines,Asia,1,0.2,0.0,3.8,0,101
+URU,Uruguay,Americas,0,0.2,0.0,3.8,0,102
+PAN,Panama,Americas,0,0.2,0.0,3.7,0,103
+GHA,Ghana,Africa,0,0.2,0.0,3.7,0,104
+BOL,Boliva,Americas,0,0.2,0.0,3.8,0,105
+BOT,Botswana,Africa,0,0.2,0.0,3.8,0,106
+ERI,Eritrea,Africa,0,0.2,0.0,3.8,0,107
+PAK,Pakistan,Asia,0,0.1,0.0,3.6,0,108
+TOG,Togo,Africa,0,0.1,0.0,3.7,0,109
+DJI,Djibouti,Africa,0,0.1,0.0,3.6,0,110
+PLE,Palestine,Asia,0,0.1,0.0,3.6,0,111
+PLW,Palau,Asia,0,0.1,0.0,3.6,0,112
+PNG,Papua New Guinea,Oceania,0,0.1,0.0,3.6,0,113
+JOR,Jordan,Asia,1,0.1,0.0,3.6,0,114
+CRC,Costa Rica,Americas,0,0.1,0.0,3.6,0,115
+CPV,Cape Verde,Africa,0,0.1,0.0,3.6,0,116
+NIG,Niger,Africa,1,0.1,0.0,3.6,0,117
+PAR,Paraguay,Americas,0,0.1,0.0,3.6,0,118
+TKM,Turkmenistan,Asia,0,0.1,0.0,3.6,0,119
+NEP,Nepal,Asia,0,0.1,0.0,3.6,0,120
+COK,Cook Islands,Oceania,0,0.1,0.0,3.6,0,121
+ROT,ROT,Other,0,0.1,0.0,3.6,0,122
+BIH,Bosnia and Herzegovina,Europe,0,0.1,0.0,3.6,0,123
+CGO,Republic of Congo,Africa,0,0.1,0.0,3.6,0,124
+RWA,Rwanda,Africa,0,0.1,0.0,3.6,0,125
+SAM,Samoa,Oceania,0,0.1,0.0,3.6,0,126
+TGA,Tonga,Oceania,0,0.1,0.0,3.6,0,127
+SEY,Seychelles,Africa,0,0.1,0.0,3.6,0,128
+CAM,Cambodia,Africa,0,0.1,0.0,3.6,0,129
+TAN,Tanzania,Africa,0,0.1,0.0,3.6,0,130
+SYR,Syria,Asia,0,0.1,0.0,3.6,0,131
+CAF,Central African Republic,Africa,0,0.1,0.0,3.6,0,132
+SUR,Suriname,Americas,0,0.1,0.0,3.6,0,133
+SRI,Sri Lanka,Asia,0,0.1,0.0,3.6,0,134
+ESA,El Salvador,Americas,0,0.1,0.0,3.6,0,135
+NCA,Nicaragua,Americas,0,0.1,0.0,3.6,0,136
+BER,Bermuda,Americas,0,0.1,0.0,3.6,0,137
+BAN,Bangladesh,Asia,0,0.1,0.0,3.6,0,138
+ISV,"Virgin Islands, US",Americas,0,0.1,0.0,3.6,0,139
+ZAM,Zambia,Africa,0,0.1,0.0,3.6,0,140
+HAI,Haiti,Americas,0,0.1,0.0,3.6,0,141
+YEM,Yemen,Asia,0,0.1,0.0,3.6,0,142
+ALB,Albania,Europe,0,0.1,0.0,3.6,0,143
+LAO,Laos,Asia,0,0.1,0.0,3.6,0,144
+AND,Andorra,Europe,0,0.1,0.0,3.6,0,145
+LBA,Libya,Asia,0,0.1,0.0,3.6,0,146
+VAN,Vanuatu,Oceania,0,0.1,0.0,3.6,0,147
+LES,Lesotho,Africa,0,0.1,0.0,3.6,0,148
+LIB,Lebanon,Asia,0,0.1,0.0,3.6,0,149
+ARU,Aruba,Americas,0,0.1,0.0,3.6,0,150
+SUD,Sudan,Africa,0,0.1,0.0,3.6,0,151
+MAD,Madagascar,Africa,0,0.1,0.0,3.6,0,152
+LUX,Luxembourg,Europe,0,0.1,0.0,3.7,0,153
+BAR,Barbados,Americas,0,0.1,0.0,3.6,0,154
+GAB,Gabon,Africa,0,0.1,0.0,3.6,0,155
+NAM,Namibia,Africa,0,0.1,0.0,3.6,0,156
+MYA,Myanmar,Asia,0,0.1,0.0,3.6,0,157
+BEN,Benin,Africa,0,0.1,0.0,3.6,0,158
+MRI,Mauritius,Africa,0,0.1,0.0,3.7,0,159
+MOZ,Mozambique,Africa,0,0.1,0.0,3.6,0,160
+MON,Monaco,Europe,0,0.1,0.0,3.6,0,161
+MLT,Malta,Europe,0,0.1,0.0,3.6,0,162
+MLI,Mali,Africa,0,0.1,0.0,3.6,0,163
+MKD,Macedonia,Europe,0,0.1,0.0,3.6,0,164
+BDI,Burundi,Africa,1,0.1,0.0,3.6,0,165
+ANT,Antigua,Americas,0,0.0,0.0,3.6,0,166
+TUV,TUV,Oceania,0,0.0,0.0,3.6,0,167
+BIZ,Belize,Other,0,0.0,0.0,3.6,0,168
+TLS,Timor-Leste,Asia,0,0.0,0.0,3.6,0,169
+VIN,Saint Vincent,Americas,0,0.0,0.0,3.6,0,170
+SWZ,Swaziland,Africa,0,0.0,0.0,3.6,0,171
+BHU,Bhutan,Asia,0,0.0,0.0,3.6,0,172
+ASA,American Samoa,Asia,0,0.0,0.0,3.6,0,173
+BRU,Brunei,Asia,0,0.0,0.0,3.6,0,174
+IVB,"Virgin Islands, British",Americas,0,0.0,0.0,3.6,0,175
+STP,Sao Tome and Principe,Africa,0,0.0,0.0,3.6,0,176
+SSD,South Sudan,Africa,0,0.0,0.0,3.6,0,177
+ISL,Iceland,Europe,0,0.0,0.0,3.6,0,178
+KIR,Kiribati,Asia,0,0.0,0.0,3.6,0,179
+GUY,Guyana,Americas,0,0.0,0.0,3.6,0,180
+GUM,Guam,Asia,0,0.0,0.0,3.6,0,181
+LBR,Liberia,Africa,0,0.0,0.0,3.6,0,182
+LCA,Saint Lucia,Americas,0,0.0,0.0,3.6,0,183
+LIE,Liechtenstein,Europe,0,0.0,0.0,3.6,0,184
+GUI,Guinea,Africa,0,0.0,0.0,3.6,0,185
+MAW,Malawi,Africa,0,0.0,0.0,3.6,0,186
+GEQ,Equatorial Guinea,Africa,0,0.0,0.0,3.6,0,187
+MDV,Maldives,Asia,0,0.0,0.0,3.6,0,188
+GBS,Guinea-Bissau,Africa,0,0.0,0.0,3.6,0,189
+GAM,Gambia,Africa,0,0.0,0.0,3.6,0,190
+MHL,Marshall Islands,Asia,0,0.0,0.0,3.6,0,191
+MTN,Mauritania,Africa,0,0.0,0.0,3.6,0,192
+FSM,Micronesia,Asia,0,0.0,0.0,3.6,0,193
+NRU,Nauru,Oceania,0,0.0,0.0,3.6,0,194
+DMA,Dominica,Americas,0,0.0,0.0,3.6,0,195
+OMA,Oman,Asia,0,0.0,0.0,3.6,0,196
+COM,Comoros,Africa,0,0.0,0.0,3.6,0,197
+COD,Democratic Republic of the Congo,Africa,0,0.0,0.0,3.6,0,198
+CHA,Chad,Africa,0,0.0,0.0,3.6,0,199
+CAY,Cayman Islands,Americas,0,0.0,0.0,3.6,0,200
+SKN,Saint Kitts,Americas,0,0.0,0.0,3.6,0,201
+SLE,Sierra Leone,Africa,0,0.0,0.0,3.6,0,202
+SMR,San Marino,Europe,0,0.0,0.0,3.6,0,203
+SOL,Solomon Islands,Oceania,0,0.0,0.0,3.6,0,204
+SOM,Somalia,Africa,0,0.0,0.0,3.6,0,205
+BUR,Burkina Faso,Africa,0,0.0,0.0,3.6,0,206
+AFG,Afghanistan,Asia,0,0.0,0.0,3.4,0,207

@@ -1,0 +1,16 @@
+Venue,Cluster,Sport,Lat,Lon,Capacity,Status,Color
+SoFi Stadium,Inglewood,Football/Ceremonies,33.9535,-118.3392,70240,Existing,#0085C7
+Kia Forum,Inglewood,Boxing/Gymnastics,33.9581,-118.3418,17505,Existing,#0085C7
+BMO Stadium,Exposition Park,Football (prelim),34.0136,-118.2843,22000,Existing,#DF0024
+LA Memorial Coliseum,Exposition Park,Athletics,34.0141,-118.2879,77500,Existing,#DF0024
+UCLA Pauley Pavilion,Westwood,Volleyball,34.0712,-118.4488,13800,Existing,#009F6B
+UCLA Drake Stadium,Westwood,Hockey/Archery,34.0716,-118.4461,11700,Existing,#009F6B
+Dignity Health Sports Park,Carson,Football/Rugby,33.8644,-118.2611,27000,Existing,#9B59B6
+Long Beach Arena,Long Beach,Weightlifting/Judo,33.7627,-118.1896,13500,Existing,#000000
+Crypto.com Arena,Downtown LA,Basketball/Boxing,34.043,-118.2673,20000,Existing,#F4C300
+LA Convention Center,Downtown LA,Fencing/Taekwondo,34.0403,-118.2698,12000,Existing,#F4C300
+Rose Bowl,Pasadena,Football,34.1614,-118.1676,88565,Existing,#E67E22
+Sepulveda Basin,San Fernando Valley,Canoe/Rowing,34.1784,-118.4851,8000,Temporary,#1ABC9C
+Pomona Fairplex,Pomona,Cycling BMX,34.0561,-117.7547,10000,Temporary,#95A5A6
+Surf Ranch (Lemoore),Central Valley,Surfing,36.3038,-119.8012,5000,Existing,#D35400
+Whittier Narrows,San Gabriel Valley,Canoe Slalom,34.01,-118.0413,7500,Temporary,#2ECC71

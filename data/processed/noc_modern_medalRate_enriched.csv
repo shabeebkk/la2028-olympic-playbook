@@ -1,0 +1,142 @@
+NOC,region,continent,Entries,Medals,Athletes,Medal_Rate
+USA,USA,Americas,5234,1817,2847,34.72
+EUN,Russia,Europe,650,220,475,33.85
+JAM,Jamaica,Americas,452,125,212,27.65
+RUS,Russia,Europe,3302,888,1642,26.89
+CUB,Cuba,Americas,1254,323,735,25.76
+SRB,Serbia,Europe,358,85,212,23.74
+NOR,Norway,Europe,653,154,354,23.58
+GER,Germany,Europe,4042,941,1999,23.28
+NED,Netherlands,Europe,1930,439,1030,22.75
+CHN,China,Asia,3472,783,1902,22.55
+AUS,Australia,Oceania,3931,874,2055,22.23
+ETH,Ethiopia,Africa,198,43,135,21.72
+SCG,Serbia,Europe,300,64,193,21.33
+CRO,Croatia,Europe,707,138,381,19.52
+PAR,Paraguay,Americas,93,17,75,18.28
+DEN,Denmark,Europe,928,167,508,18.0
+KEN,Kenya,Africa,392,69,296,17.6
+KOR,South Korea,Asia,2346,405,1300,17.26
+AZE,Azerbaijan,Europe,265,44,180,16.6
+GBR,UK,Europe,3260,539,1662,16.53
+NGR,Nigeria,Africa,559,92,361,16.46
+BAH,Bahamas,Americas,221,36,89,16.29
+MNE,Montenegro,Europe,89,14,52,15.73
+BRA,Brazil,Americas,2265,352,1210,15.54
+ROU,Romania,Europe,1483,230,594,15.51
+ITA,Italy,Europe,3062,467,1510,15.25
+ARG,Argentina,Americas,1201,183,726,15.24
+FRA,France,Europe,3256,482,1620,14.8
+JPN,Japan,Asia,2909,425,1548,14.61
+HUN,Hungary,Europe,1783,256,807,14.36
+INA,Indonesia,Asia,268,38,175,14.18
+ESP,Spain,Europe,2832,385,1488,13.59
+GEO,Georgia,Europe,247,32,152,12.96
+SWE,Sweden,Europe,1363,167,676,12.25
+IRI,Iran,Asia,312,38,226,12.18
+LTU,Lithuania,Europe,512,61,270,11.91
+GHA,Ghana,Africa,169,20,124,11.83
+CMR,Cameroon,Africa,175,20,139,11.43
+TTO,Trinidad,Americas,200,22,82,11.0
+CAN,Canada,Americas,2874,301,1513,10.47
+PAK,Pakistan,Asia,155,16,121,10.32
+BLR,Belarus,Europe,1246,124,603,9.95
+PRK,North Korea,Asia,438,43,236,9.82
+UKR,Ukraine,Europe,1979,188,936,9.5
+ARM,Armenia,Europe,174,16,118,9.2
+FIJ,Fiji,Oceania,143,13,95,9.09
+BUL,Bulgaria,Europe,906,82,445,9.05
+CHI,Chile,Americas,246,22,149,8.94
+NZL,New Zealand,Oceania,1302,112,760,8.6
+TPE,Taiwan,Asia,538,46,316,8.55
+TUR,Turkey,Europe,565,48,356,8.5
+POL,Poland,Europe,1795,152,953,8.47
+KAZ,Kazakhstan,Asia,831,70,502,8.42
+SVK,Slovakia,Europe,509,42,259,8.25
+ISL,Iceland,Europe,190,15,92,7.89
+CZE,Czech Republic,Europe,954,71,470,7.44
+MGL,Mongolia,Asia,209,15,131,7.18
+UZB,Uzbekistan,Asia,464,33,274,7.11
+THA,Thailand,Asia,395,27,228,6.84
+TJK,Tajikistan,Asia,60,4,43,6.67
+BEL,Belgium,Europe,740,48,392,6.49
+SLO,Slovenia,Other,507,30,262,5.92
+SUI,Switzerland,Europe,1013,59,504,5.82
+GRE,Greece,Europe,1325,76,769,5.74
+EST,Estonia,Europe,322,18,169,5.59
+MAS,Malaysia,Other,288,16,148,5.56
+RSA,South Africa,Africa,1020,56,625,5.49
+IOA,Individual Olympic Athletes,Other,93,5,75,5.38
+MEX,Mexico,Americas,847,45,539,5.31
+NAM,Namibia,Africa,77,4,40,5.19
+LAT,Latvia,Europe,336,17,178,5.06
+FIN,Finland,Europe,596,29,313,4.87
+ZIM,Zimbabwe,Africa,145,7,85,4.83
+MAR,Morocco,Africa,363,17,267,4.68
+KSA,Saudi Arabia,Asia,142,6,81,4.23
+MDA,Moldova,Europe,191,8,116,4.19
+ALG,Algeria,Africa,375,15,260,4.0
+VIE,Vietnam,Asia,104,4,68,3.85
+AUT,Austria,Europe,693,26,360,3.75
+SYR,Syria,Asia,55,2,41,3.64
+SGP,,,221,8,92,3.62
+COL,Colombia,Americas,615,22,361,3.58
+IRL,Ireland,Europe,539,18,324,3.34
+QAT,Qatar,Asia,153,5,116,3.27
+DOM,Dominican Republic,Americas,187,6,142,3.21
+CRC,Costa Rica,Americas,94,3,67,3.19
+BRN,Bahrain,Asia,96,3,77,3.12
+TCH,Czech Republic,Europe,269,8,208,2.97
+IND,India,Asia,558,14,364,2.51
+ISR,Israel,Europe,361,9,183,2.49
+TUN,Tunisia,Africa,359,8,263,2.23
+PHI,Philippines,Asia,140,3,91,2.14
+UGA,Uganda,Africa,95,2,70,2.11
+UAE,United Arab Emirates,Asia,97,2,64,2.06
+JOR,Jordan,Asia,50,1,38,2.0
+CIV,Ivory Coast,Africa,101,2,66,1.98
+POR,Portugal,Europe,694,13,381,1.87
+ZAM,Zambia,Africa,55,1,41,1.82
+PAN,Panama,Americas,55,1,34,1.82
+GAB,Gabon,Africa,56,1,42,1.79
+MKD,Macedonia,Europe,62,1,37,1.61
+KUW,Kuwait,Asia,125,2,93,1.6
+BOT,Botswana,Africa,63,1,45,1.59
+EGY,Egypt,Africa,708,11,479,1.55
+KGZ,Kyrgyzstan,Asia,212,3,122,1.42
+VEN,Venezuela,Americas,514,7,315,1.36
+PUR,Puerto Rico,Americas,382,5,253,1.31
+HKG,China,Asia,335,4,170,1.19
+SRI,Sri Lanka,Asia,86,1,52,1.16
+ECU,Ecuador,Americas,174,2,107,1.15
+BAR,Barbados,Americas,118,1,62,0.85
+URU,Uruguay,Americas,125,1,92,0.8
+MRI,Mauritius,Africa,126,1,77,0.79
+CYP,Cyprus,Europe,140,1,78,0.71
+PER,Peru,Americas,153,1,111,0.65
+GUA,Guatemala,Americas,168,1,90,0.6
+ISV,"Virgin Islands, US",Americas,93,0,54,0.0
+MLI,Mali,Africa,65,0,55,0.0
+IRQ,Iraq,Asia,71,0,69,0.0
+ANT,Antigua,Americas,64,0,40,0.0
+MAD,Madagascar,Africa,71,0,45,0.0
+BIH,Bosnia and Herzegovina,Europe,73,0,45,0.0
+ANG,Angola,Africa,217,0,135,0.0
+LUX,Luxembourg,Europe,83,0,40,0.0
+LIB,Lebanon,Asia,55,0,42,0.0
+BER,Bermuda,Americas,78,0,46,0.0
+ESA,El Salvador,Americas,70,0,45,0.0
+TKM,Turkmenistan,Asia,54,0,41,0.0
+BOL,Boliva,Americas,70,0,48,0.0
+MLT,Malta,Europe,51,0,32,0.0
+TAN,Tanzania,Africa,51,0,38,0.0
+NCA,Nicaragua,Americas,67,0,55,0.0
+HON,Honduras,Americas,133,0,109,0.0
+CAY,Cayman Islands,Americas,52,0,27,0.0
+COD,Democratic Republic of the Congo,Africa,55,0,46,0.0
+HAI,Haiti,Americas,50,0,41,0.0
+GUM,Guam,Asia,85,0,48,0.0
+SEY,Seychelles,Africa,75,0,47,0.0
+SEN,Senegal,Africa,161,0,113,0.0
+PNG,Papua New Guinea,Oceania,72,0,41,0.0
+ALB,Albania,Europe,58,0,38,0.0
