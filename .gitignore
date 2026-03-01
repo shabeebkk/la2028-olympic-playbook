@@ -1,0 +1,23 @@
+# Raw data — too large for GitHub (athlete_events.csv is 40MB)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large output files (keep HTML figures but ignore PNGs > a few MB)
+outputs/figures/*.png
+
+# Streamlit cache
+.streamlit/
